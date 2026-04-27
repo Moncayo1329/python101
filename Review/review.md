@@ -60,3 +60,25 @@ ejemplo my_none_var = None
 
 
 ** Immutable and mutable Types
+
+These types cannot change once delared, although you can point their variables at something new, which is called reassignment. 
+
+-- Mutable types: these types can change once declared, you can add, remove, or update their items. They include collection types such as list,set, and dictionary. 
+
+type() function: to see the type for a variable, you can use the type()function like this: 
+
+ejemplo 
+
+greting = 'hello there'
+age = 21
+
+print(type(agreeeting))
+print(type(age))
+
+- isinstance() function this is used to check if a variable matches a specific data type: 
+
+greeting = 'hello world'
+name = 'john doe'
+
+print(isinstance(gretting, str))
+print(isinstance(name, int))
