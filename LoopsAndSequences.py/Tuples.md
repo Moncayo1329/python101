@@ -9,3 +9,7 @@ programming_languages = ['Rust', 'Java', 'Python', 'C++']
 
 for language in programming_languages:
     print(language)
+
+    What Are List Comprehensions and What Are Some Useful Functions to Work With Lists?
+
+        
