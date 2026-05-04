@@ -15,7 +15,9 @@ ejemplo: my_float_var = 4.50
          print('Float', my_float_var)
 
 
-String: A sequence of character wrapped in quotes. 
+String: A sequence of character wrapped in quotes.
+
+ 
 
 ejemplo my_string_var = 'hello'
         print('String', my_string_var)
@@ -82,3 +84,19 @@ name = 'john doe'
 
 print(isinstance(gretting, str))
 print(isinstance(name, int))
+
+List Methods very important  
+
+append() Used to add an item to the end of the list. 
+
+What are dictionaries and how do they work? 
+
+dictionary = {
+ key1: Value1,
+ key2: Value2
+
+
+}
+
+
+
