@@ -58,3 +58,35 @@ In this case, dividing by zero raises a ZeroDivisionError, which is then caught 
 
 # And here's an example also showing how to use the else and finally blocks: 
 
+
+# How does exception handlin work? 
+
+try, except, else and finally block to gratefully handle errors. 
+
+try: 
+
+x = 10/0 
+
+except ZeroDivisionError:
+
+ print("you cant divdide by zero")
+
+ -Try: The block of code where you anticipate an error might occur. 
+ - Except: tHIS BLOCK RUNS if an error of the specified type is raides inside the try. 
+ - In this case, dividing by zero riases a Zero division Error, which is then caught and handled. 
+
+ and heres an example also showing how to use the else and finally blocks. 
+
+ try:
+    x = 10 / 2
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+else:
+    print('Division successful:', x)
+finally:
+    print('This block always runs.')
+
+# What Is the Raise Statement and How Does It Work? 
+
+Python's raise statement can be used in several ways to trigger exceptions. At its most basic, you can raise built-in exceptions or create custom error messages. Here's a simple example:  
+
