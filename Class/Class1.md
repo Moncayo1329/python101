@@ -29,6 +29,12 @@ class ClassName:
 
 
          What Are Special Methods and What Are They Used For?  
+Special methods to make working with objects created from the book class easier: 
 
 
-         
+         How to Handle Object Attributes Dynamically?
+ Python gives you four handy built-in functions to dynamically work with object attributes. They are getattr(), setattr(), hasattr(), and delattr().
+
+ getattr() makes it possible to read an attribute from an object when you don't know its name until runtime. If the attribute doesn't exist, it raises an AttributeError, unless you provide a default value.   
+
+ 
