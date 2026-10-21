@@ -73,4 +73,15 @@ After that, print charlie_brown to the console.
 
 
 def __str__(self): 
- return f"{self.name}: {self.level}
+ return f"{self.name}: {self.level} 
+
+
+ Step 15
+Create a class attribute named _base_salaries and assign it the following dictionary: 
+
+{
+    'trainee': 1000,
+    'junior': 2000,
+    'mid-level': 3000,
+    'senior': 4000
+}
